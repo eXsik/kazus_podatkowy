@@ -99,12 +99,12 @@ defineProps({
   }
 
   &-quantity-btn {
-    background-color: variables.$primary-color;
-    color: variables.$white-color;
+    background-color: transparent;
+    color: variables.$primary-color;
     font-size: 13px;
     width: 16px;
     height: 16px;
-    border: none;
+    border: 1px solid variables.$primary-color;
     display: flex;
     justify-content: center;
     align-items: center;
