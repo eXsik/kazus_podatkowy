@@ -1,45 +1,50 @@
-# kazus_podatkowy
+# Kazus Podatkowy - Sklep Online
 
-This template should help get you started developing with Vue 3 in Vite.
+## Wymagania systemowe
 
-## Recommended IDE Setup
+- Node.js (wersja 16 lub wyższa)
+- npm (Node Package Manager)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Instalacja
 
-## Type Support for `.vue` Imports in TS
+1. Sklonuj repozytorium:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+git clone https://github.com/eXsik/kazus_podatkowy
 
-## Customize configuration
+2. Przejdź do katalogu projektu:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+cd kazus-podatkowy
 
-## Project Setup
+3. Zainstaluj zależności:
+   npm install
 
-```sh
-npm install
-```
+## Uruchomienie aplikacji
 
-### Compile and Hot-Reload for Development
+### Tryb deweloperski
 
-```sh
+Aby uruchomić aplikację w trybie deweloperskim z hot-reload:
+
 npm run dev
-```
 
-### Type-Check, Compile and Minify for Production
+Aplikacja będzie dostępna pod adresem: `http://localhost:5173`
 
-```sh
+### Budowanie do produkcji
+
+Aby zbudować aplikację do wersji produkcyjnej:
+
 npm run build
-```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Technologie
 
-```sh
-npm run test:unit
-```
+- Vue 3
+- TypeScript
+- Pinia (zarządzanie stanem)
+- SCSS
+- Vue Router
 
-### Lint with [ESLint](https://eslint.org/)
+## Funkcjonalności
 
-```sh
-npm run lint
-```
+- Wyświetlanie listy produktów
+- Koszyk zakupowy
+- Paginacja produktów
+- Responsywny design
