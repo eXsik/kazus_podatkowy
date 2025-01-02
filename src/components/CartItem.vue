@@ -58,7 +58,7 @@ defineProps({
   padding-left: 22px;
   padding-right: 18.94px;
   margin-bottom: 12px;
-  background: #fff;
+  background: variables.$white-color;
   border-radius: 4px;
 
   &-container {
@@ -113,12 +113,12 @@ defineProps({
 
   &-quantity-count {
     font-size: 16px;
-    color: #2e3838;
+    color: variables.$dark-color;
     font-weight: 700;
   }
 
   &-tag {
-    color: #2e3838;
+    color: variables.$dark-color;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
@@ -126,7 +126,7 @@ defineProps({
 
   &-price {
     font-size: 18px;
-    color: #2e3838;
+    color: variables.$dark-color;
     font-weight: 900;
     line-height: 30px;
   }

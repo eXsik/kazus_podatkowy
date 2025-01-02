@@ -78,7 +78,7 @@ const changePage = (page: number) => {
     cursor: pointer;
 
     &:disabled {
-      color: #ccc;
+      color: variables.$light-gray4-color;
       cursor: not-allowed;
     }
 
